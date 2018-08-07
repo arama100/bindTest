@@ -1,0 +1,15 @@
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\bin\Debug\test.exe.config
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\bin\Debug\test.exe
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\bin\Debug\test.pdb
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\MainWindow.g.cs
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\App.g.cs
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\test_MarkupCompile.cache
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\test_MarkupCompile.lref
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\MainWindow.baml
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\test.g.resources
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\test.Properties.Resources.resources
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\test.csproj.GenerateResource.Cache
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\test.exe
+c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\test.pdb
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
