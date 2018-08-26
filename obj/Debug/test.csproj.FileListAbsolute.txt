@@ -13,3 +13,14 @@ c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\tes
 c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\test.exe
 c:\users\arama_000\documents\visual studio 2015\Projects\test\test\obj\Debug\test.pdb
 C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\arama_000\Documents\Visual Studio 2015\Projects\test\test\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
