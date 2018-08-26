@@ -10,7 +10,7 @@ namespace test
 
         string str;//変数
         string str2;
-
+        int a;
         public event PropertyChangedEventHandler PropertyChanged;
         private DispatcherTimer timer;
         public string Str
@@ -44,32 +44,28 @@ namespace test
         {
             str = "aaa";
             str2 = "bbb";
+            a = 0;
             command = new myCommand((bool b)=>func1(b),true);
             command2 = new myCommand((bool b)=>func2(b),false);
             timer = new DispatcherTimer(DispatcherPriority.Normal);
-            timer.Interval = new TimeSpan(0,0,1);
+            timer.Interval = TimeSpan.FromMilliseconds(50);
             timer.Tick += new EventHandler(dispatcherTimer_Tick);
-            timer.Start();
         }
 
         void func1(bool b)
         {
-            str = str == "bbb" ? "aaa" : "bbb";
-
-            PropertyChanged(this, new PropertyChangedEventArgs("Str"));
-
+            timer.Start();
         }
 
         void func2(bool b)
         {
-            str2 = str2 == "bbb" ? "aaa" : "bbb";
-
-            PropertyChanged(this, new PropertyChangedEventArgs("Str2"));
+            timer.Stop();
         }
         void dispatcherTimer_Tick(object sender, EventArgs e)
         {
-            //str = str=="bbb" ? "aaa" : "bbb";
-            //PropertyChanged(this, new PropertyChangedEventArgs("Str"));
+            a++;
+            str = a.ToString();
+            PropertyChanged(this, new PropertyChangedEventArgs("Str"));
         }
     }
 
