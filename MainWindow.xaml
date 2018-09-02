@@ -16,15 +16,15 @@
         <Label Name="str" Content="{Binding Str, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10,0,53.4,0"/>
         <Label x:Name="str2" Content="{Binding Str2, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="10,0,53.4,0"/>
         <!--<RepeatButton Command="{Binding command}" Height="19" Margin="0,0,0.4,0"/>-->
-        <TextBlock x:Name="textBlock1" VerticalAlignment="Top" Height="44" Margin="0,0,0.4,0">
+        <Button x:Name="textBlock1" VerticalAlignment="Top" Height="44" Margin="0,0,0.4,0">
             <i:Interaction.Triggers>
-                 <i:EventTrigger EventName="MouseDown">
+                <i:EventTrigger EventName="PreviewMouseDown">
             <i:InvokeCommandAction Command="{Binding command}"/>
         </i:EventTrigger>
-                <i:EventTrigger EventName="MouseUp">
+                <i:EventTrigger EventName="PreviewMouseUp">
             <i:InvokeCommandAction Command="{Binding command2}"/>
         </i:EventTrigger>
             </i:Interaction.Triggers>
-        </TextBlock>
+        </Button>
     </StackPanel>
 </Window>
